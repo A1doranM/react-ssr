@@ -1,6 +1,5 @@
 import MeetupItem from './MeetupItem';
 import classes from './MeetupList.module.css';
-import {logDOM} from "@testing-library/react";
 
 function MeetupList(props) {
     return (
