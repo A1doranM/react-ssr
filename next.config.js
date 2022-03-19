@@ -1,6 +1,3 @@
 module.exports = {
-    experimental: {
-        runtime: "nodejs",
-        serverComponents: true,
-    },
+    reactStrictMode: true,
 }

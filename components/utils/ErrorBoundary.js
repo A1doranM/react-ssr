@@ -1,5 +1,4 @@
 import React from "react";
-import {error} from "next/dist/build/output/log";
 
 class ErrorBoundary extends React.Component {
     constructor(props) {
@@ -17,10 +16,6 @@ class ErrorBoundary extends React.Component {
 
     componentDidCatch(error, errorInfo) {
         console.log("Error from ErrorBoundary: ", error, errorInfo);
-        this.setState({
-            error: error,
-            errorInfo: errorInfo
-        });
     }
 
     render() {
